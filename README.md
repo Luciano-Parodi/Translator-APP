@@ -39,4 +39,5 @@ Thanks to [RapidAPI](https://rapidapi.com/) for providing the Text Translator AP
 __API:__ https://rapidapi.com/dickyagustin/api/text-translator2/
 
 
-Made by: Luciano Parodi
+
+__Made by:__ ***Luciano Parodi***
