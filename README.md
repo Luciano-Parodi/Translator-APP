@@ -12,7 +12,7 @@ This project is designed for educational purposes and serves as a practical exam
 * Use modern web development tools like HTML5, CSS3, and JavaScript (ES6+).
 
 ## Technologies Used
-__Frontend__
+__Frontend:__
 * HTML5
 * CSS3
 * JavaScript
