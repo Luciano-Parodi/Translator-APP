@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <title>Translator App</title>
+      <link rel="stylesheet" href="traductor.css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="languages.js"></script>
+  </head>
+  <body>
+
+    <div class="translator-container">
+      <h1>Translator Proyect</h1>
+
+      <select id="fromLanguage">
+        <option value="en">English</option>
+      </select>
+
+      <textarea id="textInput" placeholder="Enter text to translate..."></textarea>
+
+      <button id="translateButton">Translate</button>
+
+      <select id="toLanguage">
+        <option value="es">Spanish</option>
+      </select>
+
+      <div id="translatedText"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

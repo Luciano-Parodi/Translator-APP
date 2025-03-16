@@ -1,0 +1,123 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.translator-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.translator-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+.translator-container select {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  color: #555;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.translator-container select:hover {
+  border-color: #aaa;
+}
+
+.translator-container textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  color: #555;
+  resize: vertical;
+  min-height: 120px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.translator-container textarea:hover {
+  border-color: #aaa;
+}
+
+.translator-container #translateButton {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.translator-container #translateButton:hover {
+  background-color: #0056b3;
+}
+
+.translator-container #translatedText {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: #333;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .translator-container {
+      padding: 1.5rem;
+  }
+
+  .translator-container h1 {
+      font-size: 1.75rem;
+  }
+
+  .translator-container select,
+  .translator-container textarea,
+  .translator-container #translateButton {
+      font-size: 0.9rem;
+  }
+}
+
+#translatedText {
+  white-space: pre-line; /* Conserva los saltos de línea */
+  text-align: left; /* Alinea el texto a la izquierda */
+  padding: 1rem; /* Añade un poco de espacio interno */
+  background-color: #f1f1f1; /* Fondo gris claro */
+  border-radius: 8px; /* Bordes redondeados */
+  margin-top: 1rem; /* Espacio superior */
+}
