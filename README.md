@@ -2,7 +2,7 @@
 ### A Web Translator Application
 
 ## Overview
-This is a simple __Translator App__ built as a learning project to understand how to work with APIs, specifically focusing on integrating a third-party translation API. The app allows users to input text, select source and target languages, and receive the translated text in real-time.
+This is a simple __Translator App__ built as a learning project to understand how to work with __APIs__, specifically focusing on integrating a third-party translation API. The app allows users to input text, select source and target languages, and receive the translated text in real-time.
 
 This project is designed for educational purposes and serves as a practical example of how to:
 
