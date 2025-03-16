@@ -32,6 +32,9 @@ __HTTP Client:__
 
 * __Display Result:__ The translated text is displayed on the screen, preserving any line breaks or formatting.
 
+## Screenshots
+![APP](https://github.com/Luciano-Parodi/Translator-APP/blob/main/Translator_Proyect_IMG.png)
+
 ## Acknowledgments
 
 Thanks to [RapidAPI](https://rapidapi.com/) for providing the Text Translator API.
